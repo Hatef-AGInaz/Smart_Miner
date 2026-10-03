@@ -9,8 +9,6 @@
 No installation needed. Open the demo and click **Analyze page** on the
 pre-filled URL to watch the real engine choose a fetch strategy and produce a
 clean document. You can optionally run Qwen to see structured JSON output.
-This public demo accepts selected documentation sites; it is not an
-unrestricted crawler.
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![HTTPX](https://img.shields.io/badge/HTTPX-HTTP_fetch-3B82F6?style=flat-square)
@@ -65,7 +63,7 @@ The v1.2 `route()` response keeps `success`, `text`, `error` and `routing`
 metadata. The newer local pipeline adds a reusable document and an explicit
 status for blocked pages.
 
-## 🧪 Evidence, with limits
+## 🧪 Evidence
 
 The local prototype passed **19 offline tests** and **one opt-in browser test**
 using a delayed AJAX page served from a loopback server. The public routing
@@ -91,9 +89,9 @@ synthetic output and a small v1.2 routing-signal excerpt with tests. It has a
 fresh Git history, separate from the private engine repository. The fetcher,
 cleaner, orchestrator, browser control and LLM provider are **not included**.
 
-The live demo linked above runs from the private repository and
-accepts selected documentation URLs. The `streamlit_app.py` in this public
-repository is an older routing preview; it does not power that live demo.
+The live demo linked above runs from the private engine repository. The
+`streamlit_app.py` in this public repository is an older routing preview; it
+does not power that live demo.
 The portfolio does not need a GitHub Release.
 
 ## 🔒 Copyright and use
