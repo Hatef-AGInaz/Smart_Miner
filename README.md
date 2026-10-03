@@ -4,10 +4,10 @@
 
 ## 🚀 See it working live
 
-**[Open the Haiox Smart Miner live demo →](https://haiox-smart-miner.streamlit.app/)
+**[Open the Haiox Smart Miner live demo →](https://haiox-smart-miner.streamlit.app/)**
 
 **[Open the extended private review →](https://haiox-smart-miner-review.streamlit.app/)**  
-Access may require an invitation.**
+Access may require an invitation.
 
 No installation needed. Open the demo and click **Analyze page** on the
 pre-filled URL to watch the real engine choose a fetch strategy and produce a
