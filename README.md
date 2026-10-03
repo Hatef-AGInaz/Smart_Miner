@@ -2,16 +2,14 @@
 
 **Turn messy web pages into reusable, structured documents for research workflows.**
 
-## 🚀 See it working live
+## 🚀 Explore Smart Miner online
 
-**[Open the Haiox Smart Miner live demo →](https://haiox-smart-miner.streamlit.app/)**
-
-**[Open the extended private review →](https://haiox-smart-miner-review.streamlit.app/)**  
+**[Open the Smart Miner dashboard →](https://haiox-smart-miner-review.streamlit.app/)**  
 Access may require an invitation.
 
-No installation needed. Open the demo and click **Analyze page** on the
-pre-filled URL to watch the real engine choose a fetch strategy and produce a
-clean document. You can optionally run Qwen to see structured JSON output.
+No installation needed. Enter a public HTTPS page URL and click **Analyze page**
+to see automatic fetch routing and a cleaned document. An optional AI summary
+is available after the page is analyzed.
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![HTTPX](https://img.shields.io/badge/HTTPX-HTTP_fetch-3B82F6?style=flat-square)
@@ -40,7 +38,7 @@ a document that can be reused for later extraction.
 | Resource | Open |
 | --- | --- |
 | 📄 A messy page turned into structured input | [Before/after example](examples/sample-output.md) |
-| 🖥️ A visual walkthrough | [Static HTML demo](demo/index.html) |
+| 🖥️ A visual walkthrough | [Recorded visual walkthrough](demo/index.html) |
 | 🧩 A small implementation excerpt | [Content-quality signal](examples/content_quality.py) and [its tests](tests/test_content_quality.py) |
 
 The HTML walkthrough and before/after example show recorded output from
@@ -92,9 +90,9 @@ synthetic output and a small v1.2 routing-signal excerpt with tests. It has a
 fresh Git history, separate from the private engine repository. The fetcher,
 cleaner, orchestrator, browser control and LLM provider are **not included**.
 
-The live demo linked above runs from the private engine repository. The
-`streamlit_app.py` in this public repository is an older routing preview; it
-does not power that live demo.
+The hosted dashboard linked above runs from the private engine repository.
+The `streamlit_app.py` in this public repository is an older routing preview;
+it does not power the hosted dashboard.
 The portfolio does not need a GitHub Release.
 
 ## 🔒 Copyright and use
