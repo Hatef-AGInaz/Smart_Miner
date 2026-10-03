@@ -38,11 +38,9 @@ a document that can be reused for later extraction.
 | Resource | Open |
 | --- | --- |
 | 📄 A messy page turned into structured input | [Before/after example](examples/sample-output.md) |
-| 🖥️ A visual walkthrough | [Recorded visual walkthrough](demo/index.html) |
 | 🧩 A small implementation excerpt | [Content-quality signal](examples/content_quality.py) and [its tests](tests/test_content_quality.py) |
 
-The HTML walkthrough and before/after example show recorded output from
-synthetic data; those do not fetch a website or call an LLM.
+The before/after example is recorded output from synthetic data.
 
 ## 🏗️ How the engine works
 
@@ -85,14 +83,11 @@ large-scale crawling or multi-agent orchestration.
 
 ## 📦 What is public
 
-This repository contains the README, a static HTML walkthrough, a recorded
-synthetic output and a small v1.2 routing-signal excerpt with tests. It has a
-fresh Git history, separate from the private engine repository. The fetcher,
+This repository contains the README, a recorded synthetic output and a small
+v1.2 routing-signal excerpt with tests. It has a fresh Git history, separate from the private engine repository. The fetcher,
 cleaner, orchestrator, browser control and LLM provider are **not included**.
 
 The hosted dashboard linked above runs from the private engine repository.
-The `streamlit_app.py` in this public repository is an older routing preview;
-it does not power the hosted dashboard.
 The portfolio does not need a GitHub Release.
 
 ## 🔒 Copyright and use
